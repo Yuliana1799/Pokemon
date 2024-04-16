@@ -19,6 +19,7 @@
       <div class="estadistica">
         <div class="q-pa-md flex flex-center">
           <p class="estapokemon">SALUD</p>
+          <p>{{ puntosSalud }}%</p> <!-- Agrega el valor numérico -->
           <q-circular-progress
             :value="puntosSalud"
             size="50px"
@@ -29,6 +30,7 @@
           />
           <br />
           <p class="estapokemon">ATAQUE</p>
+          <p>{{ ataque }}%</p> <!-- Agrega el valor numérico -->
           <q-circular-progress
             :value="ataque"
             size="50px"
@@ -39,6 +41,7 @@
           />
           <br />
           <p class="estapokemon">DEFENSA</p>
+          <p>{{ defensa }}%</p> <!-- Agrega el valor numérico -->
           <q-circular-progress
             :value="defensa"
             size="50px"
@@ -49,6 +52,7 @@
           />
           <br />
           <p class="estapokemon">ATAQUE ESPECIAL</p>
+          <p>{{ ataqueEspecial }}%</p> <!-- Agrega el valor numérico -->
           <q-circular-progress
             :value="ataqueEspecial"
             size="50px"
@@ -59,6 +63,7 @@
           />
           <br />
           <p class="estapokemon">DEFENSA ESPECIAL</p>
+          <p>{{ defensaEspecial }}%</p> <!-- Agrega el valor numérico -->
           <q-circular-progress
             :value="defensaEspecial"
             size="50px"
@@ -69,7 +74,7 @@
           />
           <br />
           <p class="estapokemon">VELOCIDAD</p>
-
+          <p>{{ velocidad }}%</p> <!-- Agrega el valor numérico -->
           <q-circular-progress
             :value="velocidad"
             size="50px"
