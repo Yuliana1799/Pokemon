@@ -104,12 +104,12 @@
         src="https://i.pinimg.com/originals/6e/4e/03/6e4e030b11b113f046a2a0be16f9c9ee.gif"
         alt="Gif Sonriente"
       />
-      <p>Por favor ingrese el nombre del Pokémon</p>
+      <p class="parrafoalertas">Por favor ingrese el nombre del Pokémon</p>
     </div>
 
     <div v-if="errorPokemonIncorrecto" class="alerta-error">
       <img src="https://i.gifer.com/Mw74.gif" alt="Gif Triste" />
-      <p>Lo siento, ese no es el Pokémon correcto</p>
+      <p class="parrafoalertas">Lo siento, ese no es el Pokémon correcto</p>
     </div>
 
     <div v-if="pokemonCorrecto" class="alerta-correcto">
@@ -117,7 +117,7 @@
         src="https://i.gifer.com/UV9.gif"
         alt="Gif Feliz"
       />
-      <p>¡Correcto! Ese es el Pokémon</p>
+      <p class="parrafoalertas">¡Correcto! Ese es el Pokémon</p>
       <button @click="cargarNuevoPokemon">Siguiente</button>
     </div>
   </div>
@@ -316,6 +316,9 @@ height: 50px;
 }
 .estapokemon {
   font-size: 15px;
+}
+.parrafoalertas{
+  color: rgb(63, 60, 60);
 }
 @media(max-width:1300px){
   .parratitu{
