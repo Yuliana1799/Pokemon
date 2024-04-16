@@ -114,7 +114,7 @@
 
     <div v-if="pokemonCorrecto" class="alerta-correcto">
       <img
-        src="https://projectpokemon.org/home/uploads/monthly_2021_01/large.5f3b7da953ca75b6-animated-pokemon-gif-auto-design-tech.gif.8149f6785bbf6d5b0614fc68a987f815.gif"
+        src="https://i.gifer.com/UV9.gif"
         alt="Gif Feliz"
       />
       <p>¡Correcto! Ese es el Pokémon</p>
